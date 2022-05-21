@@ -1,0 +1,8 @@
+LIVROS: 
+- JavaScript o guia definitivo - Flannagan
+- JavaScript o guia do programador - Maurício Samy Silva
+
+Guia de referência: Mozilla e ecma:
+	- developer.mozilla.org
+	- ecma-international.org > ecma 262
+

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escrevendo na tela e Adicionando coisas a um number</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+
+    <script>
+        var nome = window.prompt(`Qual é o seu nome?`);
+        document.write(`Bem vindo <strong>${nome}</strong>, seu nome tem ${nome.length} letras.`);
+        document.write(`<BR>Seu nome em maiúsculo é: ${nome.toUpperCase()}`);
+        document.write(`<BR>Seu nome em minúsculo é: ${nome.toLowerCase()}`);
+            //exibindo 2 casas decimais → n1.toFixed(2)
+            //trocando . por , → n1.toFixed(2).replace('.',',')
+            //exibindo em moeda local → n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+    </script>
+</body>
+</html>
