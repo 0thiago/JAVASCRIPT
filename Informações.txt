@@ -6,3 +6,51 @@ Guia de referência: Mozilla e ecma:
 	- developer.mozilla.org
 	- ecma-international.org > ecma 262
 
+
+→ var e let são a mesma coisa
+
+→ existem 3 tipos de encapsular strings, ", ' e `
+
+→ identificadores podem iniciar com letra, $ ou _
+  - não podemos inciiar com números
+  - é possível usar letras ou números
+  - é possível usar acentos e símbolos
+  - não podem conter espaços
+  - não podem ser palavras reservadas
+
+Se uma variável recebe ela mesmo, a expressão pode ser simplificada:
+ - n = n + 4 → n += 4
+
+Quando uma variável recebe ela mesmo e 1, é um operador de incremento que pode ser simplificado:
+ → x = x+1 → x++ ou x = x-1 → x--
+
+Pós incremento: x++ // Pré incremento: ++x
+
+Identidade: 
+ ∟ 5 == 5 → true
+ ∟ 5 == '5' → true (só testa o valor e não o tipo) IGUAL
+ ∟ 5 === '5' → false (testa o valor e o tipo) IDÊNTICO
+
+5 % 2 → 1 // % → Significa resto da divisão entre os 2 números
+5 ** 2 → 25 // ** → Significa potenciação
+
+Operadores Lógicos:
+! → Negação
+|| → OU 
+&& → E
+
+Ordem de Precedência de operações aritiméticas:
+() → ** → * / % → + -
+
+Ordem de Precedência com operadores aritiméticos e relacionais:
+1º Aritiméticos
+2º Relacionais (não tem ordem interna de precedência)
+3º Lógicos
+
+Operador Ternário:
+
+EXPRESSÃO ? O QUE FAZER SE FOR TRUE : O QUE FAZER SE FOR FALSE
+
+média >= 7.0 ? "aprovado" : "reprovado"
+
+
