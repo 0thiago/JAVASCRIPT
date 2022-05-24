@@ -52,5 +52,14 @@ Operador Ternário:
 EXPRESSÃO ? O QUE FAZER SE FOR TRUE : O QUE FAZER SE FOR FALSE
 
 média >= 7.0 ? "aprovado" : "reprovado"
+____
+|DOM|
+-----
 
+Podemos selecionar um elemento do DOM através de várias coisas, sendo as principais:
+ - Marca (tag)
+ - ID
+ - Nome
+ - Classe
+ - Seletor (css)
 

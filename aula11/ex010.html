@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Condicionais</title>
+</head>
+
+<body>
+    <h1>Sistema de Multas</h1>
+    Velocidade do carro: <input type="number" name="txtvel" id="txtvel"> Km/h
+    <input type="button" value="Verificar" onclick="calcular()">
+    <br><br><div id="res"></div>
+    <script>
+
+
+        function calcular() {
+
+            var txtvel = document.getElementById('txtvel');
+            var vel = Number(txtvel.value);
+
+            var resultado = document.getElementById('res');
+            
+            resultado.innerHTML = `<p>Sua velocidade é de <strong>${vel}km/h</strong></p>`
+
+            // if (condição) {bloco de ação} else {bloco de ação}
+            
+            if (vel > 60) {
+                resultado.innerHTML += '<p>Você ultrapassou a velocidade permitida. Multado!</p>';
+            } else {
+                resultado.innerHTML += '<p>Dirija com cuidado!</p>';
+            }
+        };
+    </script>
+</body>
+
+</html>

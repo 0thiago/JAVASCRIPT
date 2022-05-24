@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de país</title>
+</head>
+<body>
+    <h1>Verificador de País</h1>
+    <input type="text" name="tpais" id="txtpais">
+    <input type="button" value="Verificar" onclick="verificar()">
+    <div >
+        <p id="p1"></p>
+        <p id="resultado"></p>
+    </div>
+
+    <script>
+        function verificar() {
+            p = document.getElementById('txtpais');
+
+            pais = String(p.value); //É preciso tratar o valor recebido no input, dizendo o que ele é.
+
+            pais = pais.toUpperCase();
+
+            res = document.getElementById('resultado');
+
+            pp1 = document.getElementById('p1');
+
+            pp1.innerHTML = `Você digitou ${pais}`;
+
+
+            if (pais == 'BRASIL') {
+                res.innerHTML = `Você é Brasileiro!`
+            } else {
+                res.innerHTML = `Você é Estrangeiro!`
+            }
+
+            
+ 
+        }
+    </script>
+</body>
+</html>

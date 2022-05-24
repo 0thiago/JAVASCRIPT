@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+    <style>
+        body {
+            background-color: rgb(100, 100, 246);
+            color: white;
+            font: normal 1.2em arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos com DOM</h1> 
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
+    <div id="mensagem">Clique em mim 0</div>
+    <div name="msg">Clique em mim 1</div>
+    <div class="class_msg">Clique em mim 2</div>
+    <div id="sel_msg">Clique em mim 3</div>
+
+    <script>
+
+        var div1 = document.getElementById('mensagem');
+        div1.style.background = 'green';
+
+        var div2 = document.getElementsByName('msg')[0];
+        div2.style.background = 'black';
+
+        var div3 = document.getElementsByClassName('class_msg')[0];
+        div3.style.background = 'purple';
+
+        var p1 = document.getElementsByTagName('p')[0]; // primeiro P é 0
+        document.write('<br>Está esrito no primeiro parágrafo: "' + p1.innerText + '"'); //innerText só pega o texto, innerHTML pega a formatação
+
+        var div4 = document.querySelector('div#sel_msg');
+
+        div4.style.background = 'white'
+        div4.style.color = 'black';
+        
+    </script>
+</body>
+</html>
