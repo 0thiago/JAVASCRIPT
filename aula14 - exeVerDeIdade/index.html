@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <main>
+        <div class="caixa">
+            
+                <label for="ano_nasc">Ano de Nascimento:</label>
+                <input type="text" name="ano_nasc" id="ano_nasc" placeholder="Digite o ano de nascimento" min="0">
+
+               <div class="field_genero">
+                   <label for="radio">Gênero:</label>
+                   <input type="radio" name="genero" id="masc" value="masc" checked>
+                   <label for="genero">Masculino</label>
+                   <input type="radio" name="genero" id="fem" value="fem">
+                   <label for="genero">Feminino</label>
+               </div>
+
+               <button class="btn_verificar" type="submit" onclick="verificar()">Verificar</button>
+
+            
+            <p id="msg">Informe os dados e descubra a idade!</p>
+            <img class="imagem" src="img/check.jpg" alt="">
+        </div>
+        <script src="script.js"></script>
+    </main>
+    <footer>
+        <p>Exercício 002</p>
+    </footer>
+</body>
+</html>

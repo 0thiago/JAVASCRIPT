@@ -1,0 +1,62 @@
+@charset "UTF-8";
+*{margin: 0; padding: 0;}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 50px;
+}
+
+.caixa {
+    background-color: white;
+    color: black;
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 6px;
+}
+
+#msg {
+    text-align: center;
+    margin: 25px 0;
+}
+
+#ano_nasc {
+    padding: 5px;
+    border: 1.5px solid black;
+    border-radius: 5px;
+}
+
+.field_genero {
+    margin: 15px 0;
+    border: none;
+}
+
+.lg_genero {
+    display: inline;
+}
+
+.btn_verificar {
+    padding: 5px;
+    margin: 5px 0;
+}
+
+.imagem {
+    display: block;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.674);
+    box-sizing: border-box;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
