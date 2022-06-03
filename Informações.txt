@@ -63,3 +63,6 @@ Podemos selecionar um elemento do DOM através de várias coisas, sendo as princ
  - Classe
  - Seletor (css)
 
+
+Variável composta: É uma variável com vários elementos, cada um com seu valor e uma chave de identificação (índice)
+
