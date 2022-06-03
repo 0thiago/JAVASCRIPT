@@ -3,11 +3,11 @@
 function contar() {
 
 
-    var inicio = document.getElementById('inicio');
+    var inicio = Number(document.getElementById('inicio').value);
 
-    var fim = document.getElementById('fim');
+    var fim = Number(document.getElementById('fim').value);
 
-    var passo = document.getElementById('passo');
+    var passo = Number(document.getElementById('passo').value);
 
     var titulo_res = document.getElementById('titulo_resultado');
 
@@ -15,9 +15,8 @@ function contar() {
 
     resultado.innerHTML = '';
 
-    inicio = Number(inicio.value);
-    fim = Number(fim.value);
-    passo = Number(passo.value);
+    
+   
 
     if (inicio == 0 || fim == 0 ) {
         window.alert('[ERRO] Faltam dados!')
