@@ -1,0 +1,9 @@
+Estudar mais sobre funções
+Entender orientação a objetos
+Modularização de códigos
+RegEx (expressões regulares)
+JSON
+AJAX
+NodeJS
+REACT
+Typescript

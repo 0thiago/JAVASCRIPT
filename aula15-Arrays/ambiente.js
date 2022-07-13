@@ -34,7 +34,7 @@ for (let pos in num)//para cada POS em NUM faça:
  }
  //exibindo todos os valores do array - Let x In y - Fim
 
-num.indexOf(6); //Pesquisa no array se existe o valor 6 e exibe qual a posição dele
+num.indexOf(6); //Pesquisa no array se existe o valor 6 e exibe qual a posição dele. Caso não encontre, o valor retornado é -1
 
 let pos = num.indexOf(6);
 if (pos == -1) {

@@ -3,44 +3,40 @@
 *{margin: 0; padding: 0;}
 
 body {
+    background-color: rgb(64, 150, 235);
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(128, 207, 253);
-    
 }
 
-h1 {
+header {
+    padding: 15px;
     text-align: center;
-    margin: 10px 0;
+    color: white;
 }
 
-p {
-    margin: 10px 0;
-}
-
-#caixa_dados {        
+section {
     background-color: white;
-    width: 70vw;
-    height: 70vh;
-    margin: 10px auto;
+    border-radius: 6px;
+    margin: auto;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.414);
+    width: fit-content;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.555);
 }
 
-#caixa_dados input {
-    display: inline-block;
-}
-
-#btn_contar {
-    padding: 5px;
+section > div > p {
     margin: 5px 0;
 }
 
-footer {
-    margin-top: 20px;
-    text-align: center;
+.sel_lista {
+    width: 140px;
+    margin: 5px 0;
 }
 
+.resultado {
+    margin-top: 15px;
+}
 
-
-
+footer {
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
